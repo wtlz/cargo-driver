@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
+	<ConfigVersions>
+		<Metadata name="Catalog.РолиСотрудников" id="03cfa098-059a-4a1c-8049-9c8dbfd5439f" configVersion="337ede086fce0b439bde2f1eae22da9100000000"/>
+		<Metadata name="Catalog.СообщенияЧата" id="adb48f02-4fd4-4ecb-8992-e38e80a21b5d" configVersion="ca52ba217bcf0b42a1193c04706f6edb00000000">
+			<Metadata name="Catalog.СообщенияЧата.Attribute.Автор" id="ae8d65a1-9c9b-4b6b-9764-a89462e43ac3"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.ДатаСоздания" id="ba4df705-ec65-4c60-95d0-3d141c9395d1"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.ТекстСообщения" id="ce66a0ae-4470-4bac-9354-c8d97833e83b"/>
+		</Metadata>
+		<Metadata name="Catalog.СообщенияЧата.ObjectModule" id="adb48f02-4fd4-4ecb-8992-e38e80a21b5d.0" configVersion="ca867b41080afc429abd2aa133c9355300000000"/>
+		<Metadata name="Catalog.Сотрудники" id="06c1c909-8d8f-479e-b6be-f1592071001f" configVersion="7110d2152eed6545b3a2b1c54cdf731100000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.РольСотрудника" id="849d86df-1afe-4978-ab79-fb9ab69ff423"/>
+		</Metadata>
+		<Metadata name="Catalog.ТранспортныеСредства" id="7859cc94-f20b-455d-98aa-58e965e4c3d3" configVersion="bd35739dec5bd548851f4d2ea06f1fa500000000"/>
+		<Metadata name="Configuration.CargoDriver" id="32edeaf6-8950-42a1-8bc8-366a99b23cb7" configVersion="3e7206845b288541ab9f9f92734485ab00000000"/>
+		<Metadata name="Configuration.CargoDriver.HomePageWorkArea" id="86d4b2bb-18bc-45e0-9082-13547ceb5a55.8" configVersion="dce5e857cb239544a4997934b925c73b00000000"/>
+		<Metadata name="Constant.ТекущееТранспортноеСредство" id="2983cb65-e4ff-40b1-af2d-d5fa539e8bd2" configVersion="0eb859bea3627d4188ae98e0c52ffc6d00000000"/>
+		<Metadata name="DataProcessor.Чат" id="dc10a0cd-d517-4c81-b8b7-a566832041ed" configVersion="ea422a2dd32e6545b4ae3569d621b05700000000">
+			<Metadata name="DataProcessor.Чат.Attribute.ТекстНовогоСообщения" id="59dd6743-ee0b-408d-9137-57c42314b56f"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущееТранспортноеСредство" id="6506b6d1-45bc-4ba1-8581-721fbc9cce37"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущийКанал" id="8de44914-f698-4e24-89fe-d4a473ec9ac4"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущийВодитель" id="97201d85-98b4-4dca-9ac4-810c67478493"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Чат.Form.ФормаВыборКанала" id="1f913378-b238-4fd3-9dce-7c921d3e8f74" configVersion="eef40201b462ba46a13062386e69e84a00000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаВыборКанала.Form" id="1f913378-b238-4fd3-9dce-7c921d3e8f74.0" configVersion="ab0f62cf63bfd84ab13ce777ba37670900000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаКанала" id="8aa80bed-66b3-4a2a-b6ec-5dd5ac0dc61b" configVersion="3a902fdd39f2dd40aa651545d7f588e600000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаКанала.Form" id="8aa80bed-66b3-4a2a-b6ec-5dd5ac0dc61b.0" configVersion="6e09d84f95cfae43b9991d62f4df0e1800000000"/>
+		<Metadata name="Enum.СтатусыСообщений" id="36ce513c-88d0-4ccb-8016-dc3b2346a87d" configVersion="f606dc418b24284f9e5b27dd6831420f00000000">
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Отправлено" id="15a634b0-0763-4dfd-90fb-4bfc0cca1a13"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Доставлено" id="45796869-5b89-4f1e-9cb6-4071959e6733"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.НеОтправлено" id="6ab4c87d-0ae8-4ac7-8014-43594dc150f7"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Прочитано" id="be24ab6e-f2da-49e6-8236-aaa451771a14"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗакрепленныеСотрудники" id="a627fce8-39d6-4c6e-949b-a974b310414b" configVersion="87bb8bf21654174e9141d7b88622167100000000">
+			<Metadata name="InformationRegister.ЗакрепленныеСотрудники.Dimension.ТранспортноеСредство" id="4b1989b5-de92-40a7-9225-da3dba3997fc"/>
+			<Metadata name="InformationRegister.ЗакрепленныеСотрудники.Dimension.Сотрудник" id="5c877ba5-3488-4a5e-b5a7-b0949f826b50"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ИсторияЧата" id="0bba81a2-ff60-4653-994b-77d84dc9dc46" configVersion="659e5587c8baa044b5bafb87409a995b00000000">
+			<Metadata name="InformationRegister.ИсторияЧата.Dimension.КаналЧата" id="3b38b88e-a1d2-4602-be2d-621e5cf8022e"/>
+			<Metadata name="InformationRegister.ИсторияЧата.Dimension.Сообщение" id="421f1e6f-190e-4014-804e-d2a2341c2899"/>
+			<Metadata name="InformationRegister.ИсторияЧата.Dimension.ТранспортноеСредство" id="47206e62-86f8-410c-8126-476dd9d59fca"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыСообщений" id="b88053c2-0063-42d7-a73a-951a4d681587" configVersion="0ec7e224bee32448aacb905f6faa51c900000000">
+			<Metadata name="InformationRegister.СтатусыСообщений.Resource.Статус" id="4d9d3362-6ed3-4b1c-8b65-3bfe2b572102"/>
+			<Metadata name="InformationRegister.СтатусыСообщений.Dimension.Сообщение" id="6a40a986-a788-4578-b99a-63f17a3bde83"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="d7b3ffaf-7b3f-4496-978b-0d97335496b5" configVersion="b29414a2c700e94ba3918a59ccb2e58400000000"/>
+		<Metadata name="Style.СтильКарго" id="9e27cf67-f864-4225-96c5-03c907f5da29" configVersion="3738b023594ec544becd34143b02bff400000000"/>
+		<Metadata name="Style.СтильКарго.Style" id="9e27cf67-f864-4225-96c5-03c907f5da29.0" configVersion="aef490d1bd53a346b4ce9661c111385a00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
