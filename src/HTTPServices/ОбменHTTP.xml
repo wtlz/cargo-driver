@@ -56,6 +56,20 @@
 							<Handler>v1POST</Handler>
 						</Properties>
 					</Method>
+					<Method uuid="3f7d475c-527a-4225-aed8-3371bbbb1e59">
+						<Properties>
+							<Name>PUT</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>PUT</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PUT</HTTPMethod>
+							<Handler>v1PUT</Handler>
+						</Properties>
+					</Method>
 				</ChildObjects>
 			</URLTemplate>
 		</ChildObjects>
