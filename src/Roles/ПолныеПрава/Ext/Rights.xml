@@ -3,15 +3,4 @@
 	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
-	<object>
-		<name>SessionParameter.ТекущийПользователь</name>
-		<right>
-			<name>Get</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>false</value>
-		</right>
-	</object>
 </Rights>

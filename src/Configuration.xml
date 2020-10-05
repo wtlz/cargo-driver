@@ -202,15 +202,29 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Style>СтильКарго</Style>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>РаботаСДоставляемымиУведомлениями</CommonModule>
+			<CommonModule>УведомленияКлиент</CommonModule>
+			<CommonModule>УведомленияСервер</CommonModule>
+			<CommonModule>КоннекторHTTP</CommonModule>
+			<CommonModule>ОбменHTTP</CommonModule>
+			<CommonModule>Telegram</CommonModule>
+			<HTTPService>ОбменHTTP</HTTPService>
+			<ScheduledJob>Телеграм_ПолучитьНовыеСообщения</ScheduledJob>
 			<Constant>ТекущееТранспортноеСредство</Constant>
-			<Catalog>РолиСотрудников</Catalog>
+			<Constant>АдресСервера</Constant>
+			<Constant>КлючДоступаОтправителя</Constant>
+			<Constant>ИдентификаторПодписчикаУведомлений</Constant>
+			<Constant>Телеграм_Токен</Constant>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СообщенияЧата</Catalog>
 			<Catalog>ТранспортныеСредства</Catalog>
 			<Enum>СтатусыСообщений</Enum>
+			<Enum>РолиСотрудников</Enum>
 			<DataProcessor>Чат</DataProcessor>
 			<InformationRegister>СтатусыСообщений</InformationRegister>
-			<InformationRegister>ИсторияЧата</InformationRegister>
 			<InformationRegister>ЗакрепленныеСотрудники</InformationRegister>
 		</ChildObjects>
 	</Configuration>
