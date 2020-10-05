@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
+	<ConfigVersions>
+		<Metadata name="Catalog.СообщенияЧата" id="adb48f02-4fd4-4ecb-8992-e38e80a21b5d" configVersion="0900d31182455b4c90314173d71d685a00000000">
+			<Metadata name="Catalog.СообщенияЧата.Attribute.КаналЧата" id="0a894736-4362-4588-938d-20f67526d0b6"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.ТранспортноеСредство" id="3c2c0cf6-9182-428a-93cf-2d8dd00f9943"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.Автор" id="ae8d65a1-9c9b-4b6b-9764-a89462e43ac3"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.ДатаСоздания" id="ba4df705-ec65-4c60-95d0-3d141c9395d1"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.ТекстСообщения" id="ce66a0ae-4470-4bac-9354-c8d97833e83b"/>
+			<Metadata name="Catalog.СообщенияЧата.Attribute.Телеграм_ИдСообщения" id="fb66c9f0-a5a0-46ea-8661-643d8ee87870"/>
+		</Metadata>
+		<Metadata name="Catalog.СообщенияЧата.ManagerModule" id="adb48f02-4fd4-4ecb-8992-e38e80a21b5d.3" configVersion="eba6b47d42407d4884b1cd2bf7c64fde00000000"/>
+		<Metadata name="Catalog.СообщенияЧата.ObjectModule" id="adb48f02-4fd4-4ecb-8992-e38e80a21b5d.0" configVersion="4e13538a5d15fb4c82ed1047ca724f2f00000000"/>
+		<Metadata name="Catalog.Сотрудники" id="06c1c909-8d8f-479e-b6be-f1592071001f" configVersion="7b143583bd9d5a4f9c3fc938f9f7095500000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Телеграм_ИдЧата" id="1c4c2b3b-3f9d-407e-bd00-672a31da8b68"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.НомерТелефона" id="5a1ad017-f930-46d1-b276-9c2c440a77a1"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.РольСотрудника" id="849d86df-1afe-4978-ab79-fb9ab69ff423"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Телеграм_Логин" id="ee18f619-7eac-44b0-910a-c2c918646a1e"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.ManagerModule" id="06c1c909-8d8f-479e-b6be-f1592071001f.3" configVersion="f14d8fda147d2c41bce08da31d274ef500000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства" id="7859cc94-f20b-455d-98aa-58e965e4c3d3" configVersion="2df2ae15727be941bf2db8085debf12700000000">
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ИдентификаторУстройства" id="aade5412-372e-4346-a3a3-9064320e3ca2"/>
+		</Metadata>
+		<Metadata name="Catalog.ТранспортныеСредства.ManagerModule" id="7859cc94-f20b-455d-98aa-58e965e4c3d3.3" configVersion="e53029767f5bbf459f9e23f6e7f130ef00000000"/>
+		<Metadata name="CommonModule.Telegram" id="1b974326-e20c-4575-a927-ae00ab0a962f" configVersion="5f5884563c077743889cd99b9aa1801d00000000"/>
+		<Metadata name="CommonModule.Telegram.Module" id="1b974326-e20c-4575-a927-ae00ab0a962f.0" configVersion="0ca9a4f5f0c59d4298dad87890c9a58300000000"/>
+		<Metadata name="CommonModule.КоннекторHTTP" id="fb4cedba-98ca-4b26-b84e-6ec1456a33f7" configVersion="c3829a6454c6b54aba6ad073363235b200000000"/>
+		<Metadata name="CommonModule.КоннекторHTTP.Module" id="fb4cedba-98ca-4b26-b84e-6ec1456a33f7.0" configVersion="32c5465bfcd3744098870e48ddd6081b00000000"/>
+		<Metadata name="CommonModule.ОбменHTTP" id="dbb46ae6-f908-4519-9a93-8d2e0764f153" configVersion="a32842e3f91d094dbf8ec8ddc72d9c1000000000"/>
+		<Metadata name="CommonModule.ОбменHTTP.Module" id="dbb46ae6-f908-4519-9a93-8d2e0764f153.0" configVersion="a4a5d610c1a57e4f809a0bd0b8ec74d800000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="b28f12d3-6249-444d-8281-85cefc20569b" configVersion="8739e5705a00654b8b904de6a7899ad300000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="b28f12d3-6249-444d-8281-85cefc20569b.0" configVersion="32c24bb486f6a1419be2a119290a57a800000000"/>
+		<Metadata name="CommonModule.РаботаСДоставляемымиУведомлениями" id="dd0fc55b-389e-4c13-ab3d-33017cc14f89" configVersion="4a24e4579d3ba94e95a9870ec7453b7100000000"/>
+		<Metadata name="CommonModule.РаботаСДоставляемымиУведомлениями.Module" id="dd0fc55b-389e-4c13-ab3d-33017cc14f89.0" configVersion="fca054a4ee9029419941e517da56885d00000000"/>
+		<Metadata name="CommonModule.УведомленияКлиент" id="fd545a7c-dc4c-4759-88b0-533f97cc918e" configVersion="127d568be0953e44bfc7bb0fd9a890d800000000"/>
+		<Metadata name="CommonModule.УведомленияКлиент.Module" id="fd545a7c-dc4c-4759-88b0-533f97cc918e.0" configVersion="af9edf15bd9ace47814bd1d7b554a08700000000"/>
+		<Metadata name="CommonModule.УведомленияСервер" id="6688b135-d012-43ab-923a-9ed26ca7bef6" configVersion="10f2ef17e7c8c34b8ab0164b189f81b300000000"/>
+		<Metadata name="CommonModule.УведомленияСервер.Module" id="6688b135-d012-43ab-923a-9ed26ca7bef6.0" configVersion="053b734b56ddbd40a717a80b8b59806a00000000"/>
+		<Metadata name="Configuration.CargoDriver" id="32edeaf6-8950-42a1-8bc8-366a99b23cb7" configVersion="691a4a42fc9a8d46a0bd8a76d5157c9e00000000"/>
+		<Metadata name="Configuration.CargoDriver.HomePageWorkArea" id="86d4b2bb-18bc-45e0-9082-13547ceb5a55.8" configVersion="dce5e857cb239544a4997934b925c73b00000000"/>
+		<Metadata name="Configuration.CargoDriver.ManagedApplicationModule" id="86d4b2bb-18bc-45e0-9082-13547ceb5a55.6" configVersion="f3950f6dbb2fa64690e04ab4396b071500000000"/>
+		<Metadata name="Configuration.CargoDriver.SessionModule" id="86d4b2bb-18bc-45e0-9082-13547ceb5a55.7" configVersion="d9d3c1390b2b3549b8fb379e7f2abbbc00000000"/>
+		<Metadata name="Constant.АдресСервера" id="0ce82177-dc0d-4484-9523-7fe4e41c56c1" configVersion="7cacafe983073a448b30c6d25a88113c00000000"/>
+		<Metadata name="Constant.ИдентификаторПодписчикаУведомлений" id="518214df-1ffe-4974-a546-ada0c82cdf1f" configVersion="8115b24ad481374e95bd0b26a686b35700000000"/>
+		<Metadata name="Constant.КлючДоступаОтправителя" id="fed2d6a3-a4c1-4a07-ac0b-0250525b311f" configVersion="84fbaa0badc24a4dbc888a5abb895f1600000000"/>
+		<Metadata name="Constant.ТекущееТранспортноеСредство" id="2983cb65-e4ff-40b1-af2d-d5fa539e8bd2" configVersion="0eb859bea3627d4188ae98e0c52ffc6d00000000"/>
+		<Metadata name="Constant.Телеграм_Токен" id="79992f1a-b75f-486f-8958-ad535f4ae479" configVersion="9773cd955fd43a469cc698f4784c6cdf00000000"/>
+		<Metadata name="DataProcessor.Чат" id="dc10a0cd-d517-4c81-b8b7-a566832041ed" configVersion="963cb4e6b125d14fb2da1ebae31bfb6600000000">
+			<Metadata name="DataProcessor.Чат.Attribute.ТекстНовогоСообщения" id="59dd6743-ee0b-408d-9137-57c42314b56f"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущееТранспортноеСредство" id="6506b6d1-45bc-4ba1-8581-721fbc9cce37"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущийКанал" id="8de44914-f698-4e24-89fe-d4a473ec9ac4"/>
+			<Metadata name="DataProcessor.Чат.Attribute.ТекущийВодитель" id="97201d85-98b4-4dca-9ac4-810c67478493"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Чат.Form.ФормаВыборКанала" id="1f913378-b238-4fd3-9dce-7c921d3e8f74" configVersion="705e239238e2bd4aa891298133c2bdc100000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаВыборКанала.Form" id="1f913378-b238-4fd3-9dce-7c921d3e8f74.0" configVersion="9ceb1ee2748e1f48966d1d266b7ea55100000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаКанала" id="8aa80bed-66b3-4a2a-b6ec-5dd5ac0dc61b" configVersion="00ab23ceab54b646ad9011d8a921580b00000000"/>
+		<Metadata name="DataProcessor.Чат.Form.ФормаКанала.Form" id="8aa80bed-66b3-4a2a-b6ec-5dd5ac0dc61b.0" configVersion="3858db55af999a40bb26789a52c16a7c00000000"/>
+		<Metadata name="Enum.РолиСотрудников" id="6d352eb9-79ad-48e5-bc35-dc15dd6b22fb" configVersion="20fa563a8a054541b415bd1686c8a54500000000">
+			<Metadata name="Enum.РолиСотрудников.EnumValue.Ведущий" id="220318e1-9e4b-45d9-9c8b-8ac39ad66c96"/>
+			<Metadata name="Enum.РолиСотрудников.EnumValue.Водитель" id="26610c25-99e8-466d-966f-8869b165ea8d"/>
+			<Metadata name="Enum.РолиСотрудников.EnumValue.Механик" id="2de5e2b6-a447-49e1-8670-5617908da859"/>
+			<Metadata name="Enum.РолиСотрудников.EnumValue.Экспедитор" id="ae8a3212-7ac1-4d75-a569-03ba853bac61"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусыСообщений" id="36ce513c-88d0-4ccb-8016-dc3b2346a87d" configVersion="f606dc418b24284f9e5b27dd6831420f00000000">
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Отправлено" id="15a634b0-0763-4dfd-90fb-4bfc0cca1a13"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Доставлено" id="45796869-5b89-4f1e-9cb6-4071959e6733"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.НеОтправлено" id="6ab4c87d-0ae8-4ac7-8014-43594dc150f7"/>
+			<Metadata name="Enum.СтатусыСообщений.EnumValue.Прочитано" id="be24ab6e-f2da-49e6-8236-aaa451771a14"/>
+		</Metadata>
+		<Metadata name="HTTPService.ОбменHTTP" id="751a9c06-dd02-42ad-8b57-759c135d37f3" configVersion="b5ef0342d8482442bd5a1680dd6a600100000000">
+			<Metadata name="HTTPService.ОбменHTTP.URLTemplate.v1.Method.PUT" id="3f7d475c-527a-4225-aed8-3371bbbb1e59"/>
+			<Metadata name="HTTPService.ОбменHTTP.URLTemplate.v1.Method.GET" id="48389d7d-fa77-4f75-90a9-7755ec50171b"/>
+			<Metadata name="HTTPService.ОбменHTTP.URLTemplate.v1" id="89c730ec-dd92-4810-ab86-c6f3fcd6e0f0"/>
+			<Metadata name="HTTPService.ОбменHTTP.URLTemplate.v1.Method.POST" id="e2afb69c-ae99-4a7e-bb48-262b3652621f"/>
+		</Metadata>
+		<Metadata name="HTTPService.ОбменHTTP.Module" id="751a9c06-dd02-42ad-8b57-759c135d37f3.0" configVersion="3e56bab0c2d0f541a8e769dfd7e6b73200000000"/>
+		<Metadata name="InformationRegister.ЗакрепленныеСотрудники" id="a627fce8-39d6-4c6e-949b-a974b310414b" configVersion="50f97119578bbb41b87dbda5f18e76b700000000">
+			<Metadata name="InformationRegister.ЗакрепленныеСотрудники.Dimension.ТранспортноеСредство" id="4b1989b5-de92-40a7-9225-da3dba3997fc"/>
+			<Metadata name="InformationRegister.ЗакрепленныеСотрудники.Dimension.Сотрудник" id="5c877ba5-3488-4a5e-b5a7-b0949f826b50"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗакрепленныеСотрудники.ManagerModule" id="a627fce8-39d6-4c6e-949b-a974b310414b.2" configVersion="4467bbf57c70fe4d9b22253c380f02a300000000"/>
+		<Metadata name="InformationRegister.СтатусыСообщений" id="b88053c2-0063-42d7-a73a-951a4d681587" configVersion="0f3c49017b2513429acba052497ec26e00000000">
+			<Metadata name="InformationRegister.СтатусыСообщений.Resource.Статус" id="4d9d3362-6ed3-4b1c-8b65-3bfe2b572102"/>
+			<Metadata name="InformationRegister.СтатусыСообщений.Dimension.Сообщение" id="6a40a986-a788-4578-b99a-63f17a3bde83"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыСообщений.ManagerModule" id="b88053c2-0063-42d7-a73a-951a4d681587.2" configVersion="4b49518671c2ef479bec6ac256b8b05e00000000"/>
+		<Metadata name="Language.Русский" id="d7b3ffaf-7b3f-4496-978b-0d97335496b5" configVersion="b29414a2c700e94ba3918a59ccb2e58400000000"/>
+		<Metadata name="Role.ПолныеПрава" id="cc2ca302-4ccd-4f50-bfee-2ed062fd4acf" configVersion="4bc621a730699646920efcc39379902200000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="cc2ca302-4ccd-4f50-bfee-2ed062fd4acf.0" configVersion="5813334c7857b44aa2be5e004655d71500000000"/>
+		<Metadata name="ScheduledJob.Телеграм_ПолучитьНовыеСообщения" id="f2a9d6ea-7902-442c-a0b0-5f931c6946f0" configVersion="f32a1b5679c3fe43b252f0d4c4a60d2f00000000"/>
+		<Metadata name="ScheduledJob.Телеграм_ПолучитьНовыеСообщения.Schedule" id="f2a9d6ea-7902-442c-a0b0-5f931c6946f0.0" configVersion="011e73b87b24a44d85b1304137a4f43d00000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="454c7918-5972-4c4e-aedf-fe2e7d1d72c9" configVersion="d4d14595ae97ff4782bab2189a617b3300000000"/>
+		<Metadata name="Style.СтильКарго" id="9e27cf67-f864-4225-96c5-03c907f5da29" configVersion="3738b023594ec544becd34143b02bff400000000"/>
+		<Metadata name="Style.СтильКарго.Style" id="9e27cf67-f864-4225-96c5-03c907f5da29.0" configVersion="aef490d1bd53a346b4ce9661c111385a00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
