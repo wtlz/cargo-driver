@@ -22,4 +22,4 @@ jobs:
           -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
           -Dsonar.projectKey=${{ secrets.SONARQUBE_PROJECTKEY }} 
-          -Dsonar.sources=.
+          -Dsonar.sources=./src
