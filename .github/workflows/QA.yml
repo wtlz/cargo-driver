@@ -19,5 +19,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: sonar-scanner
-          -Dsonar.projectKey=${{ secrets.SONARQUBE_TOKEN }}
+          -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+          -Dsonar.projectKey=${{ secrets.SONARQUBE_PROJECTKEY }} 
+          -Dsonar.sources=.
